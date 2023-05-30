@@ -1,8 +1,8 @@
 body{
-    background-image: url(https://www.maxxi.art/wp-content/uploads/2017/11/MAXXI_LezioniOlivettiane_Ivrea.jpg);
+    background-image: url("../img/siteBackground.jpg");
 }
 #carouselExampleCaptions{
-    width: 40vh;
+    width: 42vh;
     height: auto;
     position: absolute;
     left: 50%;
@@ -10,10 +10,10 @@ body{
     top: 25%;
     bottom: 20%;
 }
-.container{
-    margin-bottom: 10%;
-}
 .carousel-caption{
     background-color: #00000091;
     border-radius: 8px;
-  }
+}
+.explanation{
+    text-align: center;
+}
