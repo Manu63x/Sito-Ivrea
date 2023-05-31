@@ -4,10 +4,47 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gita Ivrea</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+      body{
+        background-image: url(../img/siteBackground.jpg);
+      }
+      .partenza{
+        text-align: center;
+        top: 15vh;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 150vh;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.716);
+        border-radius: 10px;
+        animation: fadeIn 1s ease-in both;
+      }
+      #imgpartenza{
+        width: 50vh;
+        flex-direction: row-reverse;
+        margin: 2%;
+      }
+      figure {
+        display: flex;
+      }
+
+      figcaption {
+        margin: 2%;
+        width: 100%;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
-  <body style="background-image: url(../img/siteBackground.jpg);">
+  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +68,18 @@
         </div>
       </div>
     </nav>
+    <figure class="partenza">
+      <img src="../img/IMG-20230419-WA0020.jpg" alt="partenza" id="imgpartenza">
+      <figcaption>
+        <h2>La nostra partenza</h2>
+        <p>
+          Ci siamo ritrovati davanti scuola la mattina del 19 aprile per andare in gita ad Ivrea a vedere il museo della Olivetti.
+          Purtroppo però gli imprevisti accadono e il pullman si è rotto a pochi metri dalla partenza. Siamo stati dunque un'ora ad aspettarne
+          un altro, che poi è arrivato permettendoci di ripartire. Sicuramente un episodio molto divertente anche se stava per saltare
+          l'intera gita...
+        </p>
+      </figcaption>
+    </figure>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>

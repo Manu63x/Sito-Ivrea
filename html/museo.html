@@ -4,10 +4,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gita Ivrea</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+      body{
+        background-image: url(../img/siteBackground.jpg);
+      }
+      .explanation{
+        text-align: center;
+        top: 15vh;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        width: 150vh;
+        height: auto;
+        background-color: rgba(255, 255, 255, 0.716);
+        border-radius: 10px;
+        animation: fadeIn 1s ease-in both;
+      }
+      .card{
+        margin: 2%;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
-  <body style="background-image: url(../img/siteBackground.jpg);">
+  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +61,146 @@
     <div class="explanation">
       <h2>Museo</h2>
       <p>
-        Al museo Olivetti abbiamo avuto la possibilità di vedere alcuni dei modelli di macchina da scrivere
+        Arrivati finalmente al museo Olivetti abbiamo avuto la possibilità di vedere alcuni dei modelli di macchina da scrivere
         e di calcolatori che hanno fatto la storia dell'azienda.
+      </p>
+      <h2>Macchine da scrivere</h2>
+      <p>
+        Nella sezione iniziale del museo abbiamo visto i primissimi prodotti della Olivetti, ovvero le macchine da scrivere
+        basate su strumenti musicali per la loro forma (almeno le primissime). Qui sotto riporto quelle che mi sono rimaste più impresse:
+        
+        <div class="card-group">
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/HAMMOND-418.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Hammond Model 2 1888</h5>
+              <p class="card-text">Macchina per scrivere meccanica a scrittura cieca</p>
+              <a href="http://www.museotecnologicamente.it/hammond-model-2-1888/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/M-1-194.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti M1 1911</h5>
+              <p class="card-text">Macchina per scrivere standard manuale</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-m1-1911/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/OLIVETTI-M20-392.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti M20 1920</h5>
+              <p class="card-text">Macchina per scrivere standard manuale</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-m20-1920/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/Olivetti-Diaspron-Scuola-2.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti Diaspron scuola 1959</h5>
+              <p class="card-text">Macchina per scrivere standard manuale</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-diaspron-scuola-1959/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/olivetti-valentine.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti Valentine 1969</h5>
+              <p class="card-text">Macchina per scrivere portatile manuale</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-valentine-1969/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+        </div>
+      </p>
+      <h2>Calcolo</h2>
+      <p>Si passa poi per le macchine per il calcolo, come per le macchine da scrivere queste sono quelle che mi sono rimaste più impresse:
+        <div class="card-group">
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/SGDG-Addiator-1.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">S.G.D.G. ADDIATOR 1920</h5>
+              <p class="card-text">Calcolatrice tascabile</p>
+              <a href="http://www.museotecnologicamente.it/s-g-d-g-addiator-1920/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/Olivetti-Divisumma-14-1.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti Divisumma 14 1947</h5>
+              <p class="card-text">Calcolatrice elettrica scrivente</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-divisumma-14-1947/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/Olivetti-Multisumma-20-1.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti Multisumma 20 1964</h5>
+              <p class="card-text">Moltiplicatrice elettrica scrivente</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-multisumma-20-1964/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/Underwood-280-1.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Underwood 280 1973</h5>
+              <p class="card-text">Calcolatrice elettronica scrivente</p>
+              <a href="http://www.museotecnologicamente.it/underwood-280-1973/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/Olivetti-Divisumma-18-1.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti Divisumma 18 1973</h5>
+              <p class="card-text">Calcolatrice elettronica scrivente</p>
+              <a href="http://www.museotecnologicamente.it/divisumma-18-1973/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+        </div>
+      </p>
+      <h2>Computer</h2>
+      <p>Arriviamo infine ai computer, forse la parte più affascinante del museo. Ecco come prima le macchine che mi sono rimaste più impresse:
+        <div class="card-group">
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/elea2.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Elea 9003</h5>
+              <p class="card-text">Primo calcolatore al mondo realizzato totalmente con transistor e diodi</p>
+              <a href="http://www.museotecnologicamente.it/elea-9003/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/Olivetti-P203-1.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti P203 1967</h5>
+              <p class="card-text">Mini computer per ufficio</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-p203-1967/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/Olivetti-P652-1.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti P652 1973</h5>
+              <p class="card-text">Computer desktop</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-p-652-1965/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/Olivetti-M24-1.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Olivetti M24 1984</h5>
+              <p class="card-text">Personal computer desktop</p>
+              <a href="http://www.museotecnologicamente.it/olivetti-m-24-1984/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="http://www.museotecnologicamente.it/wp-content/uploads/p101.jpg" class="card-img-top" alt="hammond">
+            <div class="card-body">
+              <h5 class="card-title">Programma 101</h5>
+              <p class="card-text">Primo computer da tavolo al mondo</p>
+              <a href="http://www.museotecnologicamente.it/programma-101/" class="btn btn-primary">Vedi nel sito</a>
+            </div>
+          </div>
+        </div>
       </p>
     </div>
     
